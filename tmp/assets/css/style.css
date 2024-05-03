@@ -1,0 +1,859 @@
+/* My Changes */
+/* --------------------------------------------------- */
+/* I also changed width of .col-md-8 from 66.66667% to 100% in 'bootstrap.css' */
+/* Changed primary-navigation to have no bottom margin */
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 24px;
+    margin: 4px 2px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 3rem;
+    width: 100%;
+    max-width: 1200px;
+
+    align-items: center;
+}
+
+.background-color-wrapper {
+    background-color: #f9fff8;
+}
+/* ------------------------------------------- */
+
+#intro-div {
+    text-align: center;
+    background-color: #f9fff8;
+    padding: 22.5rem 0;
+}
+
+#intro-div p {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+#intro-div p:first-letter {
+    text-transform: capitalize;
+}
+
+#intro-div img {
+    padding: 1.1rem;
+}
+
+#intro-div h1 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 5.5rem;
+}
+
+/* ------------------------------------------- */
+
+#study-contact-div {
+    background-color: #18453B;
+    padding: 10rem 0;
+    text-align: center;
+
+}
+
+#study-contact-div h4 {
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    /* font-weight: lighter; */
+}
+
+#study-contact-div p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 1.1px;
+}
+
+#study-contact-div p:first-letter {
+    text-transform: capitalize;
+}
+
+#study-contact-div a {
+    color: #ffffff;
+    font-size: 2rem;
+    letter-spacing: 1.1px;
+}
+
+#study-contact-div img {
+    padding: 1.1rem;
+}
+/* ------------------------------------------- */
+
+#lab-desc-text, #services-text {
+    max-width: 500px;
+    min-width: 300px;
+    font-size: 1.75rem;   
+    margin-right: 4rem; 
+}
+
+#lab-desc-text {
+    align-items: center;
+}
+
+#lab-desc-div {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#lab-desc-div img {
+    padding: 1.1rem;
+    max-width: 600px;
+    min-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------------- */
+
+/* #outreach-div {
+    background-color: #18453B;
+    width: 100%;
+    max-width: 100%;
+}
+
+#outreach-div .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+#outreach-div h4, #outreach-div p {
+    color: #fff;
+} */
+/* ------------------------------------------- */
+#services-div {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#services-div-background {
+    background-color: #18453B;
+}
+
+#services-text, #services-text a {
+    color: #fff;
+}
+
+/* ------------------------------------------- */
+
+@media (max-width: 992px) {
+    .slider {
+        min-width: 100%;
+    }
+    .slides {
+        min-width: 600px;
+    }
+    #lab-desc-div img img {
+        min-width: 0;
+    }
+    .content-container {
+        flex-direction: column;
+    }
+    #lab-intro-div-text, #services-div-text {
+        margin-right: 0;
+    }
+    #lab-intro-div-content {
+        overflow-x:hidden;
+    }
+    .image-div, .slider {
+        align-self: center;
+    } }
+
+@media (min-width: 993px) {
+    .slider {
+        width: 600px;
+    }
+    .slides {
+        width: 600px;
+    } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    overflow-x: hidden;
+    overflow-y: auto;
+} */
+
+#primary-navigation {
+    margin-bottom: 0;
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Banner Styling Start */
+
+.bg-img { 
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 360px;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    max-height: 300px;
+}
+
+.bg-img img {
+    width: 100%;
+    filter: blur(4px);
+}
+
+#text-div {
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text { 
+    color: rgba(255, 255, 255, 1);
+    font-family: "GothamBlack";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.big-text {
+    font-size: 4.5rem;
+}
+/* Banner Styling End */
+
+/* ---------------------------------------------------------- */
+
+#recruitment-link-button {
+    background-color: #18453B;
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+#recruitment-link-button:hover {
+    text-decoration: underline;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+#recruitment-link {
+    color: #fff;
+}
+
+/* ---------------------------------------------------------- */
+
+h4 {
+    font-family:"GothamBook";
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.new-row {
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+    width: 100%;
+}
+
+/* .content-container p, span {
+    font-size: 1.75rem;
+} */
+
+/* ---------------------------------------------------------- */
+/* lab intro stuff */
+
+#who-we-are-content {
+    flex-grow: 1;
+}
+
+#lab-intro-div-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#lab-intro-div-text {
+    margin-right: 2.2rem;
+}
+
+#lab-members-pic-div {
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#lab-members-pic-div img {
+    min-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------------------------------- */
+/* services stuff */
+
+#services-div-content {
+    display: flex;
+    flex-direction: row;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    align-items: center;
+}
+
+#services-div-text {
+    margin-right: 2.2rem;
+}
+
+/* slider start */
+
+.slider {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    min-width: 500px;
+}
+
+
+.slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+}
+
+.slides img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.slides p {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 1.6rem;
+    color:#0b3127;
+}
+
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+.slides > div {
+    scroll-snap-align: none;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    margin-right: 50px;
+    border-radius: 10px;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider > a {
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+}
+.slider > a:active {
+    top: 1px;
+}
+.slider > a:focus {
+    background: #000;
+}
+
+/* slider end */
+
+/* ---------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------- */
+
+@media (max-width: 570px) {
+    .banner-text {
+        line-height: 0.9;
+    } }
+
+@media (max-width: 992px) {
+    .slider {
+        min-width: 100%;
+    }
+    .slides {
+        min-width: 600px;
+    }
+    #lab-members-pic-div img {
+        min-width: 0;
+    }
+    #lab-intro-div-content,
+    #services-div-content {
+        flex-direction: column;
+    }
+    #lab-intro-div-text, #services-div-text {
+        margin-right: 0;
+    }
+    #lab-intro-div-content {
+        overflow-x:hidden;
+    }
+    .image-div, .slider {
+        align-self: center;
+    } }
+
+@media (min-width: 993px) {
+    .slider {
+        width: 600px;
+    }
+    .slides {
+        width: 600px;
+    } }
+
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+
+
+.navbar-secondary {
+    background-color:#80317b;
+}
+
+.navbar {text-transform:uppercase;
+    font-size:1em; letter-spacing:1.5px; border:0;
+}
+
+.navbar #menu-primary-menu {
+    background:#5a174f;
+}
+
+.navbar #menu-secondary {
+    background:#80317b;
+    width:100%;
+}
+
+header.masthead {
+    padding-top:2em;
+    background-color:#18453B;
+}
+
+.home header.masthead {
+    background-image:url(/assets/img/masthead.jpg);
+    background-size: cover;
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: darken;
+}
+
+.masthead .container {
+    position:relative;
+}
+
+.page-header {
+    color:#000;
+    size: 1000px;
+}
+
+#band span {display:inline-block; white-space:nowrap;}
+#msu, #brand, .home #brand span {display:block;}
+
+#brand {font-family:"GothamBook"; margin:1em 0 1em; font-size:0.9em;}
+#brand .college {font-family:"GothamBook"; font-size:1.8em; letter-spacing:1px;}
+#brand .department {font-family:"GothamBlack"; text-transform:uppercase;font-size:1.8em; letter-spacing:2px;}
+
+
+.home #brand {margin-bottom:240px; font-size:1.4em; line-height:1;}
+.home a#msu {margin-bottom:12em;}
+
+
+.msu-brand a {color:#fff; text-decoration:none;}
+
+h1{font-family:"GothamBlack"; text-transform:uppercase; color:#18453B; font-size: 1.8em;}
+
+div.introduction { text-align:center; margin:36px 120px 36px 120px;}
+
+blockquote,
+.introduction h2 { font-family:"serif"; font-size:1.8em; margin:0 0 36px 0;}
+
+.newsworthy h2 { font-family:"GothamBlack"; text-transform:uppercase; font-size:1.2em; font-weight:400; color:#18453B; border-bottom: 1px solid #dedede;}
+
+
+#sections {background-color:#8a91b6; color:#fff; margin:1.5em 0 4em 0;}
+#sections a {color:#fff;}
+#sections .section {text-align:center; position:relative;}
+#sections strong {
+    display:inline-block;
+    font-family:"GothamMedium";
+    text-transform:uppercase;
+    padding:0.25em 1em;
+    font-size:1.6em; border-bottom:1px solid;
+    margin-bottom:1em;
+}
+
+
+#sections .section-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* margin-top:-2em; */
+}
+#sections .section.blur {background:#636882;}
+#sections .section.blur p,
+#sections .section.blur a {visibility:hidden;}
+
+#sections .section {
+    background-color:#8a91b6;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+    height:400px;
+    padding-top:1em;
+}
+
+#sections .section.section_research.blur { background-image:url(/assets/img/sections/research.jpg);}
+#sections .section.section_residency-networks.blur { background-image:url(/assets/img/sections/residency.jpg);}
+#sections .section.section_teaching.blur { background-image:url(/assets/img/sections/teaching.jpg);}
+
+.contain-footer {margin-top:3em;}
+
+.blur.listing {background-color:#dedede;}
+
+.listing-body {padding:1em; text-align:center;}
+
+.listing {
+    margin-bottom:2.05em;
+    background-color:#f4f4f4;
+}
+
+.feature-faculty-list .listing {
+    background:transparent;
+}
+
+.listing-media {
+    margin:0 auto;
+}
+
+.listing h4 {
+    color:#18453B;
+    font-family:"GothamBold";
+    font-size: 1.4em;
+    margin-bottom:1em;
+}
+
+.listing.type-post h4 {
+    color:inherit;
+    text-transform:none;
+    font-size:1.2em;
+    font-weight:normal;
+}
+
+.listing a.title-link{
+    color:inherit !important;
+}
+
+.listing-body .more {
+    display:inline-block;
+    padding:0 1em;
+    text-transform:uppercase; border-bottom:1px solid;
+    margin: 1em auto;
+}
+
+.listing.type-post {
+    border-top:10px solid #0b3127;
+}
+
+.type-post .listing-body {text-align:left;}
+
+
+.list-group-item.active a {color:#fff;}
+
+
+.person-city:after {content: ", "; }
+
+div.person-info {padding-top:1em;}
+
+/* #menu-primary-menu li:nth-last-child(-n+3) { */
+/*     background:#80317b; */
+/* } */
+
+.carousel-inner .item {
+    height:400px;
+    background-size: cover;
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: darken;
+}
+
+.carousel-caption {
+    text-align:left;
+}
+
+.carousel-caption a {color:#fff;}
+
+#carousel-example-generic {position:relative; top:-1.5em;}
+
+
+.meet-faculty {
+    text-align:center; font-size:1.3em;
+    padding-top:150px;
+    padding-bottom:40px;
+    background:url('/assets/img/flair.png') no-repeat 53% 10px;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .meet-faculty {
+        padding-left:1em;
+        border-left:1px solid;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .navbar {
+        /* background:url(/assets/img/nav.png); */
+        /* background-size: cover; */
+    }
+
+    .navbar #menu-primary-menu {
+        padding-right:3em;
+    }
+
+    .navbar #menu-secondary {
+        width:auto;
+        float:right;
+        position:relative;
+        right:-3em;
+    }
+
+}
+
+
+.meet-faculty p.inspire {font-family:serif;}
+
+.research-list {
+    margin-top:3em;
+}
+
+/* MAP */
+
+.map-container {
+    position:relative;
+}
+
+.res-map {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.res-map li {
+    display:none;
+}
+
+.res-map li.grand-rapids,
+.res-map li.grand-blanc,
+.res-map li.marquette,
+.res-map li.lansing,
+.res-map li.southfield,
+.res-map li.midland,
+.res-map li.flint,
+.res-map li.kalamazoo,
+.res-map li.gratiot,
+.res-map li.traverse-city,
+.res-map li.detroit {
+    display:block;
+    position:absolute;
+}
+
+
+.res-map li.grand-rapids {top:73%; left:50%;}
+.res-map li[data-res="res1542"] {left:53%;}
+.res-map li.grand-blanc {top:80%; left:80%;}
+.res-map li.marquette {top:14%; left:30%;}
+.res-map li.lansing {top:83%; left:66%;}
+.res-map li.southfield {top:90%; left:75%;}
+.res-map li.midland {top:63%; left:68%;}
+.res-map li.flint {top:78%; left:78%;}
+.res-map li.kalamazoo {top:86%; left:48%;}
+.res-map li.gratiot {top:72%; left:64%;}
+.res-map li.traverse-city {top:44%; left:50%;}
+.res-map li.detroit {top:90%; left:85%;}
+
+.res-map a:focus,
+.res-map a:hover {
+    color:#18453B;
+    outline:0;
+}
+
+.res-map .res-pop img {
+    display:block;
+    max-width:100%;
+}
+
+.popover-title {
+    color:#fff;
+}
+
+
+.popover {
+    border:0;
+    padding:0;
+    min-width:200px;
+}
+
+
+.container img {max-width:100%;}
+
+.has-thumb .content-col {border-right:1px solid #ccc;}
+
+.dfm_foot {
+    background:#325048;
+    color:#fff;
+    padding:3em 0 2em 0;
+    text-align:center;
+    margin-top:3em;
+}
+
+.ft-box {
+    border-bottom:1px solid #fff;
+    padding-bottom:1em;
+    margin-bottom:1em;
+}
+
+
+.dfm_foot a { color:#fff !important; text-decoration:none !important;}
+
+.dfm_foot strong {
+    text-transform:uppercase;
+    font-family:"GothamBlack"; margin:1em 0 1em; font-size:1.2em;
+}
+
+@media only screen and (min-width : 992px) {
+    .ft-box {
+        border-left:1px solid #fff;
+        padding-left:2em;
+        border-bottom:0;
+        padding-bottom:0;
+        margin-bottom:0;
+    }
+
+    .dfm_foot div.col-md-3:first-child > div.ft-box {
+        border:0;
+    }
+}
+
+
+.card-menu {
+    margin:2em 0;
+}
+
+
+.extras-group ul {
+    list-style-type:square;
+}
+
+.grant-index h3 a {
+    color:#18453B;
+}
+
+header #MSUSearchTool {
+    position:absolute !important;
+    top:5px;
+    right:0;
+    display:none;
+}
+
+#MSUSearchTool label {
+    margin:0;
+    font-size:10px;
+    border:0;
+}
+
+#MSUSearchTool label input {
+    background:#fff;
+    color:#000;
+    border:0;
+    padding:3px;
+}
+
+@media only screen and (min-width : 600px) {
+    header #MSUSearchTool {display:block;}
+}
+
